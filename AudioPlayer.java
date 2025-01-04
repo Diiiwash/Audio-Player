@@ -4,7 +4,7 @@ import javax.sound.sampled.*;
 public class AudioPlayer {
     public static void main(String[] args) {
         try{ 
-            String path = "/home/rughimire/workspace/ku/handsout/graphics/sample.wav";
+            String path = "/home/diwash/workspace/sample.wav";
             // open and convert into audio stream
             File audioFile = new File(path);
             AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(audioFile);
